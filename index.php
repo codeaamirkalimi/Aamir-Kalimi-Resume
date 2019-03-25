@@ -1,300 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Aamir Kalimi</title>
-
-        <!-- Icon css link -->
-        <link href="vendors/material-icon/css/materialdesignicons.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="vendors/linears-icon/style.css" rel="stylesheet">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        
-        <!-- Extra plugin css -->
-        <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
-        <link href="vendors/animate-css/animate.css" rel="stylesheet">
-        
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/colors/default.css" title="default">
-        <link rel="alternate stylesheet" href="css/colors/orange.css" title="orange">
-        <link rel="alternate stylesheet" href="css/colors/pink.css" title="pink">
-        <link rel="alternate stylesheet" href="css/colors/violet.css" title="violet">
-        <link rel="alternate stylesheet" href="css/colors/blue.css" title="blue">
-        <link rel="alternate stylesheet" href="css/colors/past.css" title="past">
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body class="light_bg" data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="80" data-scroll-animation="true">
-       
-        <div id="preloader">
-            <div id="preloader_spinner">
-                <div class="spinner"></div>
-            </div>
-        </div>
-        
-        <!--================ Frist hader Area =================-->
-        <header class="header_area">
-            <div class="container">
-                <nav class="navbar navbar-default">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#about">ABOUT ME </a></li>
-                            <li><a href="#skill">Skill</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#portfolio">Work</a></li>
-                            <li><a href="#news">Blog</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </nav>
-            </div>
-        </header>
+<?php require_once "header.php" ?>
         <!--================End Footer Area =================-->
-        
+
         <!--================Total container Area =================-->
         <div class="container main_container">
             <div class="content_inner_bg row m0">
-                <section class="about_person_area pad" id="about">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="person_img">
-                                <img src="img/member/profile_aamir.jpg" alt="">
-                                <a class="download_btn" target="_blank" href="https://drive.google.com/file/d/1luHL6grg5MQaPpS5_7MT1cob8Z5VVIgL/view"><span>Download Resume</span></a>
-                            </div>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="row person_details">
-                                <h3>Hi I'm <span>Aamir Kalimi</span></h3>
-                                <h4>Web Developer</h4>
-                                <p>I can learn new things fast when needed. I always try to keep my skills updated with the new fast coming
-                                    technologies and use these updated skills for my new Projects. I enjoy working with businesses and
-                                    individuals to provide them with a product they could be proud of. I look forward to build or maintain your
-                                    project.
-                                </p>
-                                <div class="person_information">
-                                   <h2>KEY COMPETENCIES</h2>
-                                    <ul>
-                                        <li>I can Develop, coordinate, and facilitate projects from stage of concept to full implementation.</li>
-                                        <li>I have hands on experience in PHP, MySQL, Laravel, JavaScript, WordPress, HTML, CSS, jQuery,
-                                            Bootstrap etc.</li>
-                                        <li>I am problem solver, focus on how to make your application should work as well</li>
-                                        <li>I have done projects for various domains like educational institute, portfolio, shopping mall, business
-                                            organization etc.</li>
-                                    </ul>
-                                </div>
-                                <ul class="social_icon">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="myskill_area pad" id="skill">
-                    <div class="main_title">
-                        <h2>My Skill</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="skill_text">
-                                <h4>Front End Skills</h4>
-                            </div>
-                            <div class="skill_item_inner">
-                                <div class="single_skill">
-                                    <h4>HTML5</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>CSS & SCSS</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>JavaScript</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Bootstrap</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>jQuery</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="skill_text">
-                                <h4>Back End Skills</h4>
-                            </div>
-                            <div class="skill_item_inner">
-                                <div class="single_skill">
-                                    <h4>PHP</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>MySQL</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Laravel</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Restful API</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>CRUD</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="skill_text">
-                                <h4>Frameworks and Library</h4>
-                            </div>
-                            <div class="skill_item_inner">
-                                <div class="single_skill">
-                                    <h4>Laravel</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>React.js</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Bootstrap</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Node.js</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>jQuery</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="skill_text">
-                                <h4>Web Technologies</h4>
-                            </div>
-                            <div class="skill_item_inner">
-                                <div class="single_skill">
-                                    <h4>Git & Github</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Wordpress</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Apache</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Linux</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>PHPUnit</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="skill_text">
-                                <h4>Programming Languages</h4>
-                            </div>
-                            <div class="skill_item_inner">
-                                <div class="single_skill">
-                                    <h4>PHP</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Ruby</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Python</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>C</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>C++</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Java</h4>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="skill_text">
-                                <h4>Others</h4>
-                            </div>
-                            <div class="skill_item_inner">
-                                <div class="single_skill">
-                                    <h4>OOP Design</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Algorithm Analysis & Design</h4>
-                                </div>
-                                <div class="single_skill">
-                                    <h4>Agile</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="education_area pad" id="education">
-                    <div class="main_title">
-                        <h2>Education</h2>
-                    </div>
-                    <div class="education_inner_area">
-                        <div class="education_item wow fadeInUp animated" data-line="S">
-                            <h6>2005-2007</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
-                            <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                        <div class="education_item wow fadeInUp animated" data-line="H">
-                            <h6>2005-2007</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
-                            <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                        <div class="education_item wow fadeInUp animated" data-line="C">
-                            <h6>2005-2007</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
-                            <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                        <div class="education_item wow fadeInUp animated" data-line="M">
-                            <h6>2005-2007</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
-                            <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                        <div class="education_item wow fadeInUp animated" data-line="W">
-                            <h6>2005-2007</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
-                            <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                    </div>
-                </section>
+                <?php require_once "about.php" ?>
+                <?php require_once "skills.php" ?>
+                <?php require_once "education.php" ?>
                 <section class="service_area" id="service">
                     <div class="main_title">
                         <h2>SERVICES</h2>
@@ -574,15 +286,15 @@
                     </div>
                 </section>
                 <!--================Map Area =================-->
-                <div id="mapBox" class="mapBox row m0" 
-                data-lat="37.3818288" 
-                data-lon="-122.0658212" 
+                <div id="mapBox" class="mapBox row m0"
+                data-lat="37.3818288"
+                data-lon="-122.0658212"
                 data-zoom="13"></div>
                 <!--================End Map Area =================-->
             </div>
         </div>
         <!--================End Total container Area =================-->
-        
+
         <!--================footer Area =================-->
         <footer class="footer_area">
             <div class="footer_inner">
@@ -625,7 +337,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </footer>
         <!--================End footer Area =================-->
-        
+
         <div class="envalab-style-switch" id="switch-style">
             <div class="switch-button" id="toggle-switcher"><i class="fa fa-gears"></i></div>
             <div class="switched-options">
@@ -652,8 +364,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 </ul>
             </div>
         </div>
-        
-        
+
+
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-2.1.4.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -664,21 +376,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
         <script src="vendors/isotope/isotope.pkgd.min.js"></script>
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        
+
         <script src="vendors/style-switcher/styleswitcher.js"></script>
         <script src="vendors/style-switcher/switcher-active.js"></script>
-        
+
         <script src="vendors/animate-css/wow.min.js"></script>
 
         <!--gmaps Js-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
         <script src="js/gmaps.min.js"></script>
-        
+
         <!-- contact js -->
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/contact.js"></script>
-        
+
         <script src="js/theme.js"></script>
     </body>
 </html>
